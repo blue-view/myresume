@@ -25,8 +25,7 @@ section.summary {
     align-items: center;
     flex-direction: column;
     background: transparent url(images/wallhaven.jpg) no-repeat;
-    background-size:cover;
-
+    background-size: cover;
 }
 
 section img.avatar {
@@ -34,7 +33,26 @@ section img.avatar {
     height: 128px;
     border-radius: 50%;
 }
-section.summary .text{
+
+section.summary .text {
     line-height: 1.5;
-    text-align:center;
+    text-align: center;
+}
+
+section.works {
+    background: rgb(244, 244, 244);
+}
+
+section.image {
+    max-width: 200px;
+}
+
+section.works .imageWrapper {
+    padding: 10px;
+    background: white;
+}
+
+section.works>ul {
+    display: flex;
+    flex-wrap: wrap;
 }
