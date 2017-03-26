@@ -15,6 +15,11 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /*page styles*/
 
@@ -37,6 +42,7 @@ section img.avatar {
 section.summary .text {
     line-height: 1.5;
     text-align: center;
+    color: white;
 }
 
 section.works {
@@ -47,13 +53,15 @@ section.works {
     align-items: center;
 }
 
-section.image {
+section.works img {
     max-width: 200px;
 }
 
-section.works .imageWrapper {
+section.works .imgageWrapper {
     padding: 10px;
     background: white;
+    text-align: right;
+    padding: 10px 10px 3px;
 }
 
 section.works>ul {
@@ -61,4 +69,45 @@ section.works>ul {
     flex-wrap: wrap;
     max-width: 700px;
     justify-content: space-between;
+}
+
+section.works>ul h3 {
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 8px 0;
+}
+
+section.works>h2 {
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+section.contacts {
+    height: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     margin-bottom: 2em;
+}
+section.contacts>h2 {
+    font-size: 20px;
+     margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+section.contacts>dl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+}
+
+section.contacts>dl>dt {
+    width: 3em;
+}
+
+section.contacts>dl>dd {
+    flex: 1;
+    width: 17em;
 }
