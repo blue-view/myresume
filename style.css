@@ -44,7 +44,9 @@ section.summary .text {
     text-align: center;
     color: white;
 }
-
+@media(max-width:420px){
+    min-height:100vh;
+}
 section.works {
     background: rgb(244, 244, 244);
     display: flex;
